@@ -1,0 +1,5 @@
+# Core dependencies
+pycryptodome>=3.19.0
+
+# Note: The script uses only standard library modules other than pycryptodome:
+# - os (stdlib) 
