@@ -1,0 +1,9 @@
+# Core dependencies
+wmi>=1.5.1
+tqdm>=4.66.1
+
+# Note: Other modules used are from Python standard library:
+# - os
+# - csv
+# - socket
+# - datetime
