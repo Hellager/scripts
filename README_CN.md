@@ -18,6 +18,30 @@
   - 导出结果为 CSV 格式
   - 具有进度条显示和交互式命令行界面
 
+### Windows 环境变量比较工具
+**位置**: `python/windows_envs/`
+- `environments.py`: Windows 环境变量比较工具
+  - 导出本地 Windows 环境变量到 CSV
+  - 比较不同主机之间的环境变量
+  - 跟踪环境变量随时间的变化
+  - 支持多主机比较
+
+## 系统要求
+
+- Python 3.6+
+- pandas
+- csv 模块（内置）
+- socket 模块（内置）
+
+## 安装
+
+1. 克隆此仓库
+2. 安装所需包：
+
+```bash
+pip install -r requirements.txt
+```
+
 ## 目录结构
 ```
 scripts/
@@ -27,8 +51,13 @@ scripts/
 │   │   ├── README.md
 │   │   ├── README_CN.md
 │   │   └── requirements.txt
-│   └── windows_installed/
-│       ├── installed.py
+│   ├── windows_installed/
+│   │   ├── installed.py
+│   │   ├── README.md
+│   │   ├── README_CN.md
+│   │   └── requirements.txt
+│   └── windows_envs/
+│       ├── environments.py
 │       ├── README.md
 │       ├── README_CN.md
 │       └── requirements.txt
